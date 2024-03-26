@@ -18,7 +18,7 @@ function registerUser(e) {
     }
     else{
       alert("Registration Sucsessful!");
-      window.location.href = "SignUpPassword.html";
+      window.location.href = "SignUpStep1.html";
     }
 
 }

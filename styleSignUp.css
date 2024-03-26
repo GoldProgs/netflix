@@ -1,6 +1,11 @@
 @font-face {
-    font-family: 'Netflix Sans';
+    font-family: 'Netflix Sans Medium';
     src: url(source/NetflixSans-Medium.otf);
+}
+
+@font-face {
+    font-family: 'Netflix Sans Light';
+    src: url(source/NetflixSans-Light.otf);
 }
 
 body {
@@ -38,9 +43,9 @@ body {
 #SignInLabel {
     position: relative;
     left: -16px;
-    font-family: Netflix Sans, sans-serif;
+    font-family: Netflix Sans Medium, sans-serif;
     background-color: transparent;
-    color: #333;
+    color: #333333;
     float: right;
     font-size: 19px;
     line-height: 90px;
@@ -50,4 +55,68 @@ body {
 
 #SignInLabel:hover {
     text-decoration: underline; 
+}
+
+#Step{
+    position: relative;
+    color: #000000;
+    font-family: Netflix Sans Light,sans-serif;
+    line-height: 134px;
+    top: 105px;
+    left: 636px;
+    font-size: 12.5px;
+    max-width: 300px;
+}
+.stepLogo{
+    position: relative;
+    top: 152px;
+    left: 545px;
+    display: block;
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/simplicity/Devices.png) no-repeat 50% 50%;
+    background-size: 260px;
+    height: 90px;
+    width: 260px;
+}
+
+.stepTitle{
+    position: relative;
+    top: 14px;
+    left: 516px;
+    color: #333333;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    text-align: center;
+    display: inline-block;
+    font-weight: 650;
+    font-size: 32px;
+}
+
+.contextRow{
+    position: relative;
+    top: 95px;
+    left: 192px;
+    color: #333333;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    text-align: center;
+    display: inline-block;
+    max-width: 300px;
+    font-size: 18px;
+}
+
+.NextButton{
+    border: none;
+    box-shadow: 0 1px 1px rgba(0,0,0,.25);
+    cursor: pointer;
+    letter-spacing: .025rem;
+    text-align: center;
+    position: relative;
+    top: 163px;
+    left: -130px;
+    background-color: #e50914;
+    color: #ffffff;
+    min-width: 110px;
+    width: 340px;
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: 400;
+    min-height: 64px;
 }
